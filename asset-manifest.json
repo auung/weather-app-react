@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/weather-app-react/static/css/main.a257a706.css",
+    "main.js": "/weather-app-react/static/js/main.076fc03c.js",
+    "static/media/heavy-snow.svg": "/weather-app-react/static/media/heavy-snow.c80caae5921c5621fa47.svg",
+    "static/media/broken-clouds.svg": "/weather-app-react/static/media/broken-clouds.dc28799758a028cdfa07.svg",
+    "static/media/snow.svg": "/weather-app-react/static/media/snow.58017b8925c0f7f3bd1a.svg",
+    "static/media/few-clouds.svg": "/weather-app-react/static/media/few-clouds.4519728f2ef910065835.svg",
+    "static/media/scattered-clouds.svg": "/weather-app-react/static/media/scattered-clouds.ab42b379e47c30dad717.svg",
+    "static/media/light-snow.svg": "/weather-app-react/static/media/light-snow.a991236990480f3056fe.svg",
+    "static/media/clear-sky.svg": "/weather-app-react/static/media/clear-sky.cbb0f9a27d619d23eaf2.svg",
+    "static/media/heavy-rain.svg": "/weather-app-react/static/media/heavy-rain.800fc4a6c239bbe016df.svg",
+    "static/media/overcast-clouds.svg": "/weather-app-react/static/media/overcast-clouds.29bc28980a76e3591b04.svg",
+    "static/media/moderate-rain.svg": "/weather-app-react/static/media/moderate-rain.e347b3a4ecddd762ae59.svg",
+    "static/media/light-rain.svg": "/weather-app-react/static/media/light-rain.7229717e6238b6b36ced.svg",
+    "index.html": "/weather-app-react/index.html",
+    "static/media/clear-night.svg": "/weather-app-react/static/media/clear-night.3729c151eb817e08047d.svg",
+    "main.a257a706.css.map": "/weather-app-react/static/css/main.a257a706.css.map",
+    "main.076fc03c.js.map": "/weather-app-react/static/js/main.076fc03c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a257a706.css",
+    "static/js/main.076fc03c.js"
+  ]
+}
