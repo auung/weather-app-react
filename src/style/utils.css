@@ -1,0 +1,48 @@
+.container {
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 3px 3px 10px rgba(37, 37, 53, 0.5);
+}
+
+.d-flex {
+	display: flex;
+}
+
+.d-flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.align-start {
+	align-items: flex-start;
+}
+
+.light {
+	font-weight: 300;
+}
+
+.selected {
+	outline: #23a2b5 5px solid;
+	outline-offset: -5px;
+}
+
+.btn {
+	background: #23a2b5;
+	transition: background 0.3s;
+}
+
+.btn:hover {
+	cursor: pointer;
+  background: #248b9a;
+}
