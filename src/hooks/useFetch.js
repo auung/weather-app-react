@@ -1,12 +1,20 @@
 import { useState, useEffect } from "react";
 
-const useFetch = (url) => {
+const useFetch = (url, city) => {
 	const [data, setData] = useState(null)
 	const [error, setError] = useState(null);
 	const [isPending, setIsPending] = useState(true);
 
 	useEffect(() => {
-		fetch(url)
+		fetch(url, {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json",
+			},
+			body: {
+				"city": city
+			},
+		})
 			.then(res => {
 				setData(null);
 				setIsPending(true);
@@ -21,13 +29,15 @@ const useFetch = (url) => {
 				setIsPending(false);
 			})
 			.catch(err => {
-				err.json().then(body => {
-					setData(null);
-					setError((body.message === "city not found") ? "Your city does not exist :(" : body.message)
-					setIsPending(false);
-				});
+				// err.json()
+				// 	.then(body => {
+				// 	setData(null);
+				// 	setError((body.message === "city not found") ? "Your city does not exist :(" : body.message)
+				// 	setIsPending(false);
+				// });
+				console.log(err);
 			})
-	}, [url])
+	}, [url, city])
 
 	return {data, error, isPending};
 }
