@@ -9,11 +9,9 @@ const useFetch = (url, city) => {
 		fetch(url, {
 			method: "POST",
 			headers: {
-				"Content-Type": "application/json",
+				"Content-Type": "text/plain",
 			},
-			body: {
-				"city": city
-			},
+			body: city,
 		})
 			.then(res => {
 				setData(null);
