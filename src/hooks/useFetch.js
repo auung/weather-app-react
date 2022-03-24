@@ -11,9 +11,9 @@ const useFetch = (url, city) => {
 			headers: {
 				"Content-Type": "application/json",
 			},
-			body: {
+			body: JSON.stringify({
 				"city": city
-			},
+			}),
 		})
 			.then(res => {
 				setData(null);
