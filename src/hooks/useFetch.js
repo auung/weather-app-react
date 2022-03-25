@@ -29,13 +29,15 @@ const useFetch = (url, city) => {
 				setIsPending(false);
 			})
 			.catch(err => {
-				err.json()
-					.then(body => {
-					setData(null);
-					setError((body.message === "city not found") ? "Your city does not exist :(" : body.message)
-					setIsPending(false);
-				});
-				console.log(err);
+				// err.json()
+				// 	.then(body => {
+				// 	setData(null);
+				// 	setError((body.message === "city not found") ? "Your city does not exist :(" : body.message)
+				// 	setIsPending(false);
+				// });
+				setData(null);
+				setError((err.message === "city not found") ? "Your city does not exist :(" : err.message);
+				setIsPending(false);
 			})
 	}, [url, city])
 
