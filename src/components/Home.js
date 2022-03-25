@@ -5,7 +5,7 @@ import { formatCity } from "../hooks/utilHooks";
 import { useState, useEffect, Fragment } from "react";
 
 const Home = ({ city }) => {
-	const {data, error, isPending} = useFetch("https://floating-plains-63243.herokuapp.com/weather-data", formatCity(city));
+	const {data, error, isPending} = useFetch("http://localhost:4000/weather-data", formatCity(city));
 	const [detailsData, setDetails] = useState(null);
 	const [firstSearch, setFirstSearch] = useState(true);
 	let date = null;
