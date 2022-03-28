@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/weather-app-react/static/css/main.a257a706.css",
-    "main.js": "/weather-app-react/static/js/main.b264c4e2.js",
+    "main.js": "/weather-app-react/static/js/main.03eb9d5d.js",
     "static/media/heavy-snow.svg": "/weather-app-react/static/media/heavy-snow.c80caae5921c5621fa47.svg",
     "static/media/broken-clouds.svg": "/weather-app-react/static/media/broken-clouds.dc28799758a028cdfa07.svg",
     "static/media/snow.svg": "/weather-app-react/static/media/snow.58017b8925c0f7f3bd1a.svg",
@@ -16,10 +16,10 @@
     "index.html": "/weather-app-react/index.html",
     "static/media/clear-night.svg": "/weather-app-react/static/media/clear-night.3729c151eb817e08047d.svg",
     "main.a257a706.css.map": "/weather-app-react/static/css/main.a257a706.css.map",
-    "main.b264c4e2.js.map": "/weather-app-react/static/js/main.b264c4e2.js.map"
+    "main.03eb9d5d.js.map": "/weather-app-react/static/js/main.03eb9d5d.js.map"
   },
   "entrypoints": [
     "static/css/main.a257a706.css",
-    "static/js/main.b264c4e2.js"
+    "static/js/main.03eb9d5d.js"
   ]
 }
